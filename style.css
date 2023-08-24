@@ -1,0 +1,155 @@
+body{
+    padding:0px;
+    margin: 0px;
+    background-color: #e5e5e5;
+}
+.navbar{
+    height: 50px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 20px;
+    box-shadow: 10px 10px 5px #d1d5db;
+    background-color: whitesmoke;
+    
+    
+}
+.content{
+    height: 100%;
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-bar{height: 25px;}
+.navbar input{
+    width: 400px;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color:#e5e5e5;
+    border: 2px solid #e5e5e5;
+    
+}
+.search-icon{
+    float: right;
+    height: 100%;
+    width: 25px;
+    padding: 3px 10px;
+    background-color:#d9232d;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.utility-icon img{
+    height: 20px;
+    float:left ;
+    margin-right: 8px;
+}
+.utility-icon text{
+    margin-top: 2px;
+}
+.hero-image{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background-color: aqua;
+    height: 60vh;
+    background-image: url(file:///C:/Users/Shantanu/Desktop/Mooglix/Assets/nothing-hero-image.webp);
+    background-size: 100% 100%;
+}
+.red{background-color: #d9232d;height: 100%;}
+.product-grid{
+    padding: 30px 20px 30px 30px;
+    background-color: whitesmoke;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.product-grid div{
+    border-radius: 5%;
+    transition: 0.4s ease;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.product-grid div:hover{
+    box-shadow: 10px 10px 5px #a0a4a8;
+}
+    
+
+.washing-machine{
+    grid-area: 1/1/3/2;
+}
+.television{
+    grid-area: 1/2/2/3;
+}
+.smart-phone{
+    grid-area: 1/3/2/4;
+}
+.smart-watch{
+    grid-area: 2/2/3/4;
+}
+.laptop{
+    grid-area: 1/4/3/5;
+}
+.product-grid .img>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+.banner{
+    width: 100vw;
+    margin-bottom: 50px;
+}
+.partner-title{
+    text-align: center;
+    font-size: 25pt;
+
+   }
+   .brand-grid{
+    background-color: white;
+    padding: 50px 40px 20px 50px;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 25px;
+    margin-bottom: 50px;
+   }
+   
+   .brand-grid img{
+    height: 50%;
+    width: 50%;
+    transition: 0.3s ease;
+    
+   }
+   .brand-grid img:hover{
+    box-shadow: 5px 5px 5px #a0a4a8;
+    border-radius: 5%;
+    height: 60%;
+    width: 60%;
+   }
+   .facility{
+    background-color:white;
+    height: 30vh;
+    padding: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+    margin-bottom: 3px;
+    
+   }
+   .facility .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-right: solid grey 2px;
+   }
+   
